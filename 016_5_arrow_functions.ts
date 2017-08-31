@@ -2,10 +2,11 @@ var fullName = (first, last) => {
 	return first + " " + last;
 }
 
-console.log(fullName('Jordan', 'Hudgens'));
+console.log(fullName('Mark', 'Albright'));
 
-// Jordan Hudgens
+// Mark Albright
 
+// Instead of the keyword function var is placed instead with a => after the datatype.
 var gradeGenerator = (grade: number) : string => {
   if (grade < 60) {
   	return 'F';
