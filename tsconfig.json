@@ -1,9 +1,15 @@
 {
   "compilerOptions": {
-    "sourceMap": true
+    "module": "amd",
+      // "target": "es6", // sudo typings install dt~es6-promise dt~es6-collections -- global --save  
+      "target": "ES5",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "sourceMap": true
   },
   "files": [
-    "021_inheritance.ts"
+    "032_method_decorator.ts"
   ]
 }
 
+// Using the new compiler option you need to put "use strict"; at the top of each file
