@@ -1,8 +1,4 @@
-// It protects the methods so that you are able to use the same method names without issues.
-
-
-[10:28] 
-In which you just specify then the name of the namespace followed by the method name.
+// It protects the methods so that you are able to use the same method names without issues in which you just specify then the name of the namespace followed by the method name.
 
 namespace Blog {
 	export interface IPost {
